@@ -18,9 +18,9 @@ links:
 app_description: |
     Gardez un oeil sur votre région !
     
-    Auvergne Webcams vous permet d'observer les caméras de votre région à tout moment via votre smartphone.
+    <br />Auvergne Webcams vous permet d'observer les caméras de votre région à tout moment via votre smartphone.
     
-    Auvergne Webcam offre les fonctionnalités suivantes :
+    <br />Auvergne Webcam offre les fonctionnalités suivantes :
     - Gestion des favoris.
     - Recherche d'une webcam.
     - Météo des points stratégiques.
@@ -29,12 +29,12 @@ app_description: |
     - Partage et export de vos webcams préférées.
     - Rafraîchissement automatique.
 
-    Ni Auvergne Webcams ni Openium ne sont propriétaires des images et flux vidéos présentés. Pour plus d'information, rendez-vous sur https://github.com/Drusy/auvergne-webcams-ios
+    <br />Ni Auvergne Webcams ni Openium ne sont propriétaires des images et flux vidéos présentés. Pour plus d'information, rendez-vous sur https://github.com/Drusy/auvergne-webcams-ios
 
-    Un produit Openium (https://openium.fr)
-    Design par Les Pirates (http://agencelespirates.com/)
+    <br />Un produit Openium (https://openium.fr)
+    <br />Design par Les Pirates (http://agencelespirates.com/)
     
-    Nous sommes à l'écoute de vos commentaires, n'hésitez pas à nous envoyer un email à auvergnewebcams@openium.fr afin de nous donner votre avis !
+    <br />Nous sommes à l'écoute de vos commentaires, n'hésitez pas à nous envoyer un email à auvergnewebcams@openium.fr afin de nous donner votre avis !
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
