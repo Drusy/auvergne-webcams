@@ -1,0 +1,73 @@
+app_name: Auvergne Webcams
+app_subtitle: Gardez un oeil sur votre région !
+app_download: https://apps.apple.com/app/id1183930829
+app_github: https://github.com/drusy/auvergne-webcams-ios
+app_id: 1183930829
+email: kevin.renella@gmail.com
+app_icon: /assets/icon.png
+favicon: /assets/icon.png
+
+made_by: Made by [Drusy](https://github.com/drusy)
+
+links:
+  - title: Donation
+    url: https://paypal.me/kevinrenella
+  - title: Openium
+    url: https://openium.fr
+
+app_description: |
+    Gardez un oeil sur votre région !
+    
+    Auvergne Webcams vous permet d'observer les caméras de votre région à tout moment via votre smartphone.
+    
+    Auvergne Webcam offre les fonctionnalités suivantes :
+    - Gestion des favoris.
+    - Recherche d'une webcam.
+    - Météo des points stratégiques.
+    - Webcams HD.
+    - Webcam panorama / vidéos.
+    - Partage et export de vos webcams préférées.
+    - Rafraîchissement automatique.
+
+    Ni Auvergne Webcams ni Openium ne sont propriétaires des images et flux vidéos présentés. Pour plus d'information, rendez-vous sur https://github.com/Drusy/auvergne-webcams-ios
+
+    Un produit Openium (https://openium.fr)
+    Design par Les Pirates (http://agencelespirates.com/)
+    
+    Nous sommes à l'écoute de vos commentaires, n'hésitez pas à nous envoyer un email à auvergnewebcams@openium.fr afin de nous donner votre avis !
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+plugins:
+  - jekyll-postcss
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+include: ["node_modules/tailwindcss"]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - .gitignore
+  - node_modules
+
+markdown: kramdown
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: "assets/screenshots"
+    values:
+      screenshot: true
